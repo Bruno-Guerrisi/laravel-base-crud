@@ -1,4 +1,4 @@
-<header class="mb-5">
+<header class="">
 
     <nav class="navbar navbar-expand-lg navbar-light bg-primary">
 
@@ -16,6 +16,9 @@
 
                     <li class="nav-item">
                         <a class="nav-link active text-white" aria-current="page" href="{{ route('home')}}">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="{{ route('comics.index')}}">Comics</a>
                     </li>
                 </ul>
             </div>
