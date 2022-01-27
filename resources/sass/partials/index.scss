@@ -1,0 +1,30 @@
+.my_card{
+    position: relative;
+
+    .button_deleted_container{
+        position: absolute;
+        top: -15px;
+        right: -15px;
+        border-radius: 50%;
+        padding: 5px 7px;
+        background-color: rgb(158, 0, 0);
+
+        .button_deleted{
+            background-color: transparent;
+            border: 0;
+            color: white;
+        }
+
+    }
+
+    .button_edit{
+        position: absolute;
+        top: 50px;
+        right: 1px;
+        border-radius: 50%;
+        padding: 6px 9px;
+        background-color: #143b8f;
+        border: 0;
+        color: #fff;
+    }
+}
