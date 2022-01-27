@@ -17,7 +17,7 @@
     <div class="row card-group flex-wrap justify-content-center">
         @foreach ($comics as $comic)
 
-            <div class="col-sm-12 col-md-6 col-lg-4 p-3 mb-5 h-100">
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-5 h-100">
 
                 <div class="card h-100 my_card" style="width: 22rem;">
 

@@ -5,8 +5,10 @@
 <section class="mb-4 text-center container">
     <h1>Edit your comic</h1>
     
-    <form action="{{ route('comics.store') }}" method="POST">
+    <form action="{{ route('comics.update', $comic->id) }}" method="POST">
         @csrf
+
+        @method('PATCH')
 
         <div class="mb-3">
             <label for="title" class="form-label">Titolo</label>
